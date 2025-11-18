@@ -1,5 +1,5 @@
 #!/bin/bash
 
-nomeApp="brunoApp"
+nomeApp="HelloReact"
 
 sudo supervisorctl stop $nomeApp
