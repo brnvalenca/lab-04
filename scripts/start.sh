@@ -9,4 +9,4 @@ npm install
 
 sudo supervisorctl reread
 sudo supervisorctl update
-sudo supervisorctl restart $nomeApp
+sudo supervisorctl start $nomeApp
