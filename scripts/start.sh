@@ -1,10 +1,12 @@
 #!/bin/bash
-nomeApp="HelloReact"
+nomeApp="brunoApp"
+
+export NODE_OPTIONS=--openssl-legacy-provider
 
 cd /home/ubuntu/HelloReact
-chmod +x start.sh
+
 npm install
 
 sudo supervisorctl reread
 sudo supervisorctl update
-sudo supervisorctl -c /etc/supervisord.conf start $nomeApp
+sudo supervisorctl restart $nomeApp
