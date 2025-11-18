@@ -1,5 +1,5 @@
 #!/bin/bash
-nomeApp="HelloReact"
+nomeApp="brunoApp"
 
 cd /home/ubuntu/HelloReact
 chmod +x start.sh

@@ -5,10 +5,10 @@ files:
     destination: /home/ubuntu/HelloReact
 hooks:
   ApplicationStop:
-    - location: scripts/start.sh
+    - location: scripts/stop.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: scripts/stop.sh
+    - location: scripts/start.sh
       timeout: 300
       runas: root
